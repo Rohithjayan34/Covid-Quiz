@@ -1,0 +1,45 @@
+name: CovidQuiz
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  introduction_screen: ^1.0.8
+
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  rflutter_alert: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+
+  fonts:
+     - family: BalooChettan
+       fonts:
+         -  asset: assets/BalooChettan2-Bold.ttf
+
+  assets:
+    - assets/rohit.jpeg
+    - assets/congratz.png
+    - assets/COVID.jpeg
+    - assets/big.jpg
+    - assets/qa.jpg
+
+
+
+
+
+
+
+
